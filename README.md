@@ -41,7 +41,6 @@ The system consists of:
 ```text
 .
 ├── README.md                  # This file
-├── requirements.txt           # Python dependencies for core + analysis
 ├── core/                      # Real-time algorithms and controllers
 │   ├── __init__.py
 │   ├── gait_phase_adaptive.py # Single-IMU Gait Phase Adaptive filter
@@ -69,23 +68,6 @@ The system consists of:
             │   │   └── ui/GaitDashboardFragment.kt
             │   └── res/layout, values, ...
             └── ...
-
-
----
-
-## 1. Python core algorithms
-
-### 1.1 Installation
-
-```bash
-git clone https://github.com/<yourname>/Intelligent-Spatiotemporal-Vibration-Patch-for-PD-Gait-Rehabilitation.git
-cd Intelligent-Spatiotemporal-Vibration-Patch-for-PD-Gait-Rehabilitation
-
-# Optional: create a virtual environment
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
-
-pip install -r requirements.txt
 ```
 
 Main dependencies:
